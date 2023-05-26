@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23d082f3-2b10-455a-9fcc-162d1a2ea122" name="Changes" comment="Diagrama">
-      <change afterPath="$PROJECT_DIR$/src/br/com/conta/model/Agencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/conta/model/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/conta/model/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/conta/model/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/pessoa/model/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/pessoa/model/PessoaFisica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/pessoa/model/PessoaJudrica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="23d082f3-2b10-455a-9fcc-162d1a2ea122" name="Changes" comment="onde parei">
+      <change afterPath="$PROJECT_DIR$/src/br/com/conta/model/Banco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/conta/model/Agencia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/conta/model/Agencia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/conta/model/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/conta/model/Conta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +51,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/mu_bi/IdeaProjects/bank-of-murilo",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -97,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684786592208</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="onde parei">
+      <created>1684876286452</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684876286452</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Diagrama" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diagrama" />
+    <MESSAGE value="onde parei" />
+    <option name="LAST_COMMIT_MESSAGE" value="onde parei" />
   </component>
 </project>

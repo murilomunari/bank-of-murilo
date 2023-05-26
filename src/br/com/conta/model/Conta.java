@@ -8,15 +8,19 @@ public class Conta {
 
     private double saldo;
 
-    private Pessoa dono;
+    private Pessoa titular;
+
+    private Agencia agencia;
+
 
     public Conta() {
     }
 
-    public Conta(String numero, double saldo, Pessoa dono) {
+    public Conta(String numero, double saldo, Pessoa titular, Agencia agencia) {
         this.numero = numero;
         this.saldo = saldo;
-        this.dono = dono;
+        this.titular = titular;
+        this.agencia = agencia;
     }
 
 
@@ -36,12 +40,20 @@ public class Conta {
         this.saldo = saldo;
     }
 
-    public Pessoa getDono() {
-        return dono;
+    public Pessoa getTitular() {
+        return titular;
     }
 
-    public void setDono(Pessoa dono) {
-        this.dono = dono;
+    public void setTitular(Pessoa titular) {
+        this.titular = titular;
+    }
+
+    public Agencia getAgencia() {
+        return agencia;
+    }
+
+    public void setAgencia(Agencia agencia) {
+        this.agencia = agencia;
     }
 
     @Override
@@ -49,7 +61,8 @@ public class Conta {
         return "Conta{" +
                 "numero='" + numero + '\'' +
                 ", saldo=" + saldo +
-                ", dono=" + dono +
+                ", titular=" + titular +
+                ", agencia=" + agencia +
                 '}';
     }
 }
